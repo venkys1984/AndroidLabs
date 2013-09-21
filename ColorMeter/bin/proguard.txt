@@ -1,0 +1,24 @@
+# view AndroidManifest.xml #generated:7
+-keep class com.example.colormeter.ColorMeter { <init>(...); }
+
+# onClick res/layout/main.xml #generated:119
+-keepclassmembers class * { *** minusBlue(...); }
+
+# onClick res/layout/main.xml #generated:79
+-keepclassmembers class * { *** minusGreen(...); }
+
+# onClick res/layout/main.xml #generated:38
+-keepclassmembers class * { *** minusRed(...); }
+
+# onClick res/layout/main.xml #generated:129
+-keepclassmembers class * { *** onColor(...); }
+
+# onClick res/layout/main.xml #generated:111
+-keepclassmembers class * { *** plusBlue(...); }
+
+# onClick res/layout/main.xml #generated:71
+-keepclassmembers class * { *** plusGreen(...); }
+
+# onClick res/layout/main.xml #generated:30
+-keepclassmembers class * { *** plusRed(...); }
+

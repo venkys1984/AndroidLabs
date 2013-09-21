@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp" 
+    >
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="R"
+    android:textSize="30sp"
+    android:layout_marginRight="10dp"
+    />
+<EditText
+    android:id="@+id/red_color"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:hint="FF"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+/>
+<Button
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    android:text="+"
+    android:onClick="plusRed" 
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+/>
+<Button
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    android:text="-"
+    android:onClick="minusRed" 
+    android:layout_marginLeft="10dp"
+/>
+
+</LinearLayout>
+
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp" 
+    >
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="G"
+    android:textSize="30sp"
+    android:layout_marginRight="10dp"
+    />
+<EditText
+    android:id="@+id/green_color"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:hint="FF"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+/>
+<Button
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    android:text="+"
+    android:onClick="plusGreen" 
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+/>
+<Button
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    android:text="-"
+    android:onClick="minusGreen" 
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+/>
+
+</LinearLayout>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp" 
+    >
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="B"
+    android:textSize="30sp"
+    android:layout_marginRight="10dp"
+    />
+<EditText
+    android:id="@+id/blue_color"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:hint="FF"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+/>
+<Button
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    android:text="+"
+    android:onClick="plusBlue" 
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+/>
+<Button
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    android:text="-"
+    android:onClick="minusBlue" 
+    android:layout_marginLeft="10dp"
+/>
+
+</LinearLayout>
+
+<Button
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    android:layout_margin="10dp"
+    android:text="Color"
+    android:onClick="onColor"  
+/>
+
+</LinearLayout>
+
