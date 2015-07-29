@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AudioVideo</string>
+    <string name="Pick">Pick file</string>
+    <string name="Sel">File path</string>
+    <string name="Transcode">Transcode</string>
+</resources>
