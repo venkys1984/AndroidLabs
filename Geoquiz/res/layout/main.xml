@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity = "center"
+    >
+<TextView
+    android:layout_width="fill_parent"
+    android:id = "@+id/qspace"
+    android:layout_height="wrap_content"  
+    android:gravity = "center"
+    android:padding = "25dp"
+    android:background= "#FF0000"
+    />
+    
+<LinearLayout
+   android:orientation="horizontal"
+   android:layout_width="fill_parent"
+   android:layout_height="wrap_content"
+   android:background= "#00FF00"
+   android:padding="25dp"
+   android:layout_margin="25dp"
+   android:gravity = "center"
+>
+   
+   <Button
+      android:id="@+id/T"
+      android:text="@string/True"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+   />
+   
+   <Button
+      android:id="@+id/F"
+      android:text="@string/False"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+   />
+   
+    
+</LinearLayout>
+
+<LinearLayout
+   android:orientation="horizontal"
+   android:layout_width="fill_parent"
+   android:layout_height="wrap_content"
+   android:background= "#FFFF00"
+   android:padding="25dp"
+   android:layout_margin="25dp"
+   android:gravity = "center"
+>
+
+<Button
+   android:id="@+id/prev"
+   android:text="@string/prev"
+   android:layout_width="wrap_content"
+   android:layout_height="wrap_content"
+   android:drawableLeft="@drawable/arrow_left"
+   android:drawablePadding="4dp"
+/>
+
+<Button
+   android:id="@+id/next"
+   android:text="@string/next"
+   android:layout_width="wrap_content"
+   android:layout_height="wrap_content"
+   android:drawableRight="@drawable/arrow_right"
+   android:drawablePadding="4dp"
+/>
+
+
+
+</LinearLayout>
+
+</LinearLayout>
+
