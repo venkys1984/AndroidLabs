@@ -11,7 +11,7 @@ import android.widget.Toast;
 
 import com.dummy.geoquiz.TrueFalse;
 
-
+//The main class
 public class GeoActivity extends Activity
 {
 	
