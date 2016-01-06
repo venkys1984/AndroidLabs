@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   android:layout_width="match_parent"
+   android:layout_height="match_parent"
+>
+
+<TextView
+    android:layout_width="fill_parent"
+    android:id = "@+id/qspace"
+    android:layout_height="wrap_content"  
+    android:gravity = "center"
+    android:padding = "25dp"
+    android:text = "This is a dummy"
+    android:background= "#FF0000"
+    />
+    
+<LinearLayout
+   android:orientation="horizontal"
+   android:layout_width="fill_parent"
+   android:layout_height="wrap_content"
+   android:background= "#00FF00"
+   android:padding="25dp"
+   android:layout_margin="25dp"
+   android:gravity="center"
+   android:layout_gravity = "center"
+>
+   <Button
+      android:id="@+id/T"
+      android:text="@string/True"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+   />
+   
+   <Button
+      android:id="@+id/F"
+      android:text="@string/False"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+   />
+   
+</LinearLayout>
+
+<Button
+   android:id="@+id/cheat"
+   android:text="@string/Cheat"
+   android:layout_width="wrap_content"
+   android:layout_height="wrap_content"
+   android:drawablePadding="4dp"
+   android:layout_gravity="bottom|center"
+/>
+
+<Button
+   android:id="@+id/prev"
+   android:text="@string/prev"
+   android:layout_width="wrap_content"
+   android:layout_height="wrap_content"
+   android:drawableLeft="@drawable/arrow_left"
+   android:drawablePadding="4dp"
+   android:layout_gravity="bottom|left"
+/>
+
+<Button
+   android:id="@+id/next"
+   android:text="@string/next"
+   android:layout_width="wrap_content"
+   android:layout_height="wrap_content"
+   android:drawableRight="@drawable/arrow_right"
+   android:drawablePadding="4dp"
+   android:layout_gravity="bottom|right"
+/>
+
+</FrameLayout>
+
