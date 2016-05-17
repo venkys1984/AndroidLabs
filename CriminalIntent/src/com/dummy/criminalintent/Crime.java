@@ -9,7 +9,7 @@ public class Crime
   
   public Crime()
   {
-	mId = UUID.randomUUID();  
+	  mId = UUID.randomUUID();      
   }
   
   public UUID getId()
@@ -27,3 +27,4 @@ public class Crime
     mTitle = title;
   }
 }
+
